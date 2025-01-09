@@ -1,0 +1,17 @@
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.deps.json
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.dll
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Application.pdb
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Domain.dll
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Persistence.dll
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Domain.pdb
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\bin\Debug\net9.0\MasterNet.Persistence.pdb
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.csproj.AssemblyReference.cache
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.AssemblyInfoInputs.cache
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.AssemblyInfo.cs
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.csproj.CoreCompileInputs.cache
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNe.3F085376.Up2Date
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.dll
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\refint\MasterNet.Application.dll
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\MasterNet.Application.pdb
+C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Application\obj\Debug\net9.0\ref\MasterNet.Application.dll
