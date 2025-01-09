@@ -3184,11 +3184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\src\\MasterNet.Persistence\\MasterNet.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Persistence\\MasterNet.Persistence.csproj",
       "projectName": "MasterNet.Persistence",
-      "projectPath": "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\src\\MasterNet.Persistence\\MasterNet.Persistence.csproj",
+      "projectPath": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Persistence\\MasterNet.Persistence.csproj",
       "packagesPath": "C:\\Users\\jamar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\src\\MasterNet.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3209,8 +3209,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\src\\MasterNet.Domain\\MasterNet.Domain.csproj": {
-              "projectPath": "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\src\\MasterNet.Domain\\MasterNet.Domain.csproj"
+            "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Domain\\MasterNet.Domain.csproj": {
+              "projectPath": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Domain\\MasterNet.Domain.csproj"
             }
           }
         }

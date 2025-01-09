@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MasterNet.Persistence
-build_property.ProjectDir = C:\Users\jamar\OneDrive\Escritorio\ASP NET\WEB_API_ASP_NET_CORE\WEBAPIJEFRI\src\MasterNet.Persistence\
+build_property.ProjectDir = C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.Persistence\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
