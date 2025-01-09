@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ng/uRrLFbiY=",
+  "dgSpecHash": "kUOuzbfrNMw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jamar\\OneDrive\\Escritorio\\ASP NET\\WEB_API_ASP_NET_CORE\\WEBAPIJEFRI\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jamar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\jamar\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
