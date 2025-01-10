@@ -1,0 +1,18 @@
+# Ignorar carpetas y archivos generados por Visual Studio
+.vs/*
+bin/
+obj/
+
+# Ignorar archivos de configuración del usuario
+*.user
+*.suo
+*.userosscache
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas específicas
+wwwroot/temp/
+
+ src/MasterNet.WebApi/appsettings.json
+/MasterNet.sln
