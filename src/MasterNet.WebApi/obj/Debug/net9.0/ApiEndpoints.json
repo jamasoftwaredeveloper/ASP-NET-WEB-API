@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "MasterNet.WebApi.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MasterNet.Application.Accounts.Login.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MasterNet.Application.Accounts.Profile",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MasterNet.WebApi.Controllers.CalificacionesController",
     "Method": "PaginationCursos",
     "RelativePath": "api/calificaciones",
@@ -38,7 +64,17 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "MasterNet.Application.Core.PagedList\u00601[[MasterNet.Application.Calificaciones.GetCalificaciones.CalificacionResponse, MasterNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "MasterNet.WebApi.Controllers.CursosController",
@@ -83,7 +119,7 @@
   },
   {
     "ContainingType": "MasterNet.WebApi.Controllers.CursosController",
-    "Method": "GetCurso",
+    "Method": "CursoGet",
     "RelativePath": "api/cursos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -95,7 +131,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "MasterNet.Application.Cursos.GetCurso.CursoResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "MasterNet.WebApi.Controllers.CursosController",
@@ -216,6 +262,57 @@
     ]
   },
   {
+    "ContainingType": "MasterNet.WebApi.Controllers.InstructoresController",
+    "Method": "PaginationCursos",
+    "RelativePath": "api/instructores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderAsc",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MasterNet.Application.Core.PagedList\u00601[[MasterNet.Application.Instructores.GetInstructores.InstructorResponse, MasterNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MasterNet.WebApi.Controllers.PreciosController",
     "Method": "PaginationCursos",
     "RelativePath": "api/precios",
@@ -259,29 +356,9 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "MasterNet.WebApi.Controllers.DemoController",
-    "Method": "GetAmbiente",
-    "RelativePath": "Demo/ambiente",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "MasterNet.WebApi.Controllers.DemoController",
-    "Method": "GetNombre",
-    "RelativePath": "Demo/getstring",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "MasterNet.Application.Core.PagedList\u00601[[MasterNet.Application.Precios.GetPrecios.PrecioResponse, MasterNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

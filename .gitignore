@@ -3,7 +3,7 @@
 bin/
 obj/
 
-# Ignorar archivos de configuración del usuario
+# Ignorar archivos de configuraciï¿½n del usuario
 *.user
 *.suo
 *.userosscache
@@ -11,8 +11,8 @@ obj/
 # Ignorar archivos de log
 *.log
 
-# Ignorar carpetas específicas
+# Ignorar carpetas especï¿½ficas
 wwwroot/temp/
 
- src/MasterNet.WebApi/appsettings.json
+src/MasterNet.WebApi/appsettings.json
 /MasterNet.sln

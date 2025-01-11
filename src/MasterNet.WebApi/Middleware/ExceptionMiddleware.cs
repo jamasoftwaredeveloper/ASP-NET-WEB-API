@@ -1,7 +1,6 @@
-﻿using System.Net;
-using System.Text.Json;
-using MasterNet.Application.Core;
-using Microsoft.Extensions.Hosting;
+﻿using MasterNet.Application.Core;
+using Newtonsoft.Json;
+
 
 namespace MasterNet.WebApi.Middleware
 {
@@ -30,21 +29,23 @@ namespace MasterNet.WebApi.Middleware
             catch (Exception ex)
             {
                 _logger.LogError(ex, ex.Message);
-                context.Response.ContentType = "application/json";
-                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-
-                var response = _env.IsDevelopment() ?
-                    new AppException(
+                var response = ex switch
+                {
+                    ValidationException validationException => new AppException(
+                        StatusCodes.Status400BadRequest,
+                        "Error de validación",
+                        string.Join(", ", validationException.Errors.Select(er => er.ErrorMessage))
+                        ),
+                    _ => new AppException(
                         context.Response.StatusCode,
                         ex.Message,
-                        ex.StackTrace?.ToString()) :
-                    new AppException(
-                        context.Response.StatusCode,
-                        "Internal Server Error");
-                var options = new JsonSerializerOptions
-                { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+                        ex.StackTrace?.ToString()
+                        )
+                };
 
-                var json = JsonSerializer.Serialize(response, options);
+                context.Response.StatusCode = response.StatusCode;
+                context.Response.ContentType ="application/json";
+                var json = JsonConvert.SerializeObject(response);
 
                 await context.Response.WriteAsync(json);
             }

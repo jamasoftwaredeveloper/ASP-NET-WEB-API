@@ -3,16 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\accounts\\register\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\accounts\\register\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\cursos\\cursocreate\\cursocreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\cursos\\cursocreate\\cursocreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\accounts\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\accounts\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\cursos\\cursocreate\\cursocreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\cursos\\cursocreate\\cursocreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\core\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\core\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\core\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\core\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\core\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\core\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\core\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\core\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\cursos\\cursocreate\\cursocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\cursos\\cursocreate\\cursocreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\core\\icommandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\core\\icommandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E78443-928C-454E-A972-155A006FD9BD}|src\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.infrastructure\\security\\useraccesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31E78443-928C-454E-A972-155A006FD9BD}|src\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj|solutionrelative:src\\masternet.infrastructure\\security\\useraccesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\interfaces\\iuseraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\interfaces\\iuseraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.webapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545BE680-3961-4BCA-A1F7-6C7E90D342EE}|src\\MasterNet.WebApi\\MasterNet.WebApi.csproj|solutionrelative:src\\masternet.webapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\accounts\\getcurrentuser\\getcurrentuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\accounts\\getcurrentuser\\getcurrentuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\users\\jamar\\desktop\\asp net\\asp-net-web-api\\src\\masternet.application\\accounts\\getcurrentuser\\getcurrentuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDDF09F-7EE3-4019-BBFE-A3B4996FE366}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\accounts\\getcurrentuser\\getcurrentuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +86,241 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
+              "RelativeToolTip": "src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAA4wB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:45:58.736Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\MasterNet.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-09T23:03:48.908Z",
+              "Title": "RegisterValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\Register\\RegisterValidator.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Accounts\\Register\\RegisterValidator.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\Register\\RegisterValidator.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Accounts\\Register\\RegisterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:29:52.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\MasterNet.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-09T23:03:43.328Z",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Accounts\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Accounts\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:27:45.151Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CursoCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateValidator.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateValidator.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateValidator.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:26:45.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\AppException.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Core\\AppException.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\AppException.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Core\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:23:31.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:12:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationException.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Core\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationException.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Core\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:10:47.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursoCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateRequest.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateRequest.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateRequest.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:08:42.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationError.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationError.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Core\\ValidationError.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationError.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Core\\ValidationError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T02:03:30.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CursoCreateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateCommand.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateCommand.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateCommand.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Cursos\\CursoCreate\\CursoCreateCommand.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:43:21.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ICommandBase.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Core\\ICommandBase.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ICommandBase.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Core\\ICommandBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:42:47.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Core\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Core\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Core\\ValidationBehavior.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:39:55.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\MasterNet.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:37:41.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Program.cs",
               "RelativeToolTip": "src\\MasterNet.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T23:00:04.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T01:32:08.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserAccesor.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Infrastructure\\Security\\UserAccesor.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Infrastructure\\Security\\UserAccesor.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Infrastructure\\Security\\UserAccesor.cs",
+              "RelativeToolTip": "src\\MasterNet.Infrastructure\\Security\\UserAccesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:24:08.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Interfaces\\IUserAccessor.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Interfaces\\IUserAccessor.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Interfaces\\IUserAccessor.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Interfaces\\IUserAccessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:23:40.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetCurrentUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserRequest.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserRequest.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserRequest.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:21:02.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.WebApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "src\\MasterNet.WebApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:19:17.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetCurrentUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserQuery.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserQuery.cs",
+              "ToolTip": "C:\\Users\\jamar\\Desktop\\ASP NET\\ASP-NET-WEB-API\\src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserQuery.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Accounts\\GetCurrentUser\\GetCurrentUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:07:14.091Z"
             }
           ]
         }

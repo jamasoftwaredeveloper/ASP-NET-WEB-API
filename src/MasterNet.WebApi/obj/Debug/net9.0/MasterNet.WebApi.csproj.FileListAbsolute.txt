@@ -299,3 +299,11 @@ C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\obj\Debug\ne
 C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNe.84DB9D16.Up2Date
 C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.genruntimeconfig.cache
 C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\obj\Debug\net9.0\ref\MasterNet.WebApi.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jamar\Desktop\ASP NET\ASP-NET-WEB-API\src\MasterNet.WebApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

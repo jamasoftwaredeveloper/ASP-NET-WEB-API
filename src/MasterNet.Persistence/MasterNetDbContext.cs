@@ -139,7 +139,7 @@ public class MasterNetDbContext : IdentityDbContext<AppUser>
              new IdentityRoleClaim<string>{
                 Id = 3,
                 ClaimType=CustomClaims.POLICIES,
-                ClaimValue = PolicyMaster.CURSO_WRITE,
+                ClaimValue = PolicyMaster.CURSO_CREATE,
                 RoleId = adminId
             },
              new IdentityRoleClaim<string>{

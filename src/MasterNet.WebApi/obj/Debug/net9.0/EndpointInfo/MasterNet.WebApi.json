@@ -5,6 +5,54 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/account/login": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Profile"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Profile"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Profile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/calificaciones": {
       "get": {
         "tags": [
@@ -65,7 +113,24 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CalificacionResponsePagedList"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CalificacionResponsePagedList"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CalificacionResponsePagedList"
+                }
+              }
+            }
           }
         }
       }
@@ -235,7 +300,24 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CursoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CursoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CursoResponse"
+                }
+              }
+            }
           }
         }
       }
@@ -353,10 +435,62 @@
         }
       }
     },
-    "/Demo/getstring": {
+    "/api/instructores": {
       "get": {
         "tags": [
-          "Demo"
+          "Instructores"
+        ],
+        "parameters": [
+          {
+            "name": "Nombre",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Apellido",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "OrderBy",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "OrderAsc",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "boolean"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -364,32 +498,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/InstructorResponsePagedList"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/InstructorResponsePagedList"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "string"
+                  "$ref": "#/components/schemas/InstructorResponsePagedList"
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "/Demo/ambiente": {
-      "get": {
-        "tags": [
-          "Demo"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
           }
         }
       }
@@ -463,7 +585,24 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecioResponsePagedList"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecioResponsePagedList"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecioResponsePagedList"
+                }
+              }
+            }
           }
         }
       }
@@ -471,6 +610,109 @@
   },
   "components": {
     "schemas": {
+      "CalificacionResponse": {
+        "type": "object",
+        "properties": {
+          "alumno": {
+            "type": "string",
+            "nullable": true
+          },
+          "puntaje": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreCurso": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalificacionResponsePagedList": {
+        "type": "object",
+        "properties": {
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CalificacionResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CursoResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaPublicacion": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "instructores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InstructorResponse"
+            },
+            "nullable": true
+          },
+          "calificaciones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CalificacionResponse"
+            },
+            "nullable": true
+          },
+          "precios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PrecioResponse"
+            },
+            "nullable": true
+          },
+          "photos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PhotoResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CursoUpdateRequest": {
         "type": "object",
         "properties": {
@@ -507,6 +749,168 @@
         },
         "additionalProperties": false
       },
+      "InstructorResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "grado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InstructorResponsePagedList": {
+        "type": "object",
+        "properties": {
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InstructorResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PhotoResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "cursoId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrecioResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "precioActual": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "precioPromocion": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrecioResponsePagedList": {
+        "type": "object",
+        "properties": {
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PrecioResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Profile": {
+        "type": "object",
+        "properties": {
+          "nombreCompleto": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Unit": {
         "type": "object",
         "additionalProperties": false
@@ -527,6 +931,20 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization Bearer Schema",
+        "scheme": "Bearer"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [
+        "Bearer"
+      ]
+    }
+  ]
 }

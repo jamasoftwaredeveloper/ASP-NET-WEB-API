@@ -1,6 +1,10 @@
-﻿using MasterNet.Application.Calificaciones.GetCalificaciones;
+﻿using System.Net;
+using MasterNet.Application.Calificaciones.GetCalificaciones;
+using MasterNet.Application.Core;
 using MasterNet.Application.Cursos.GetCursos;
+using MasterNet.Application.Instructores.GetInstructores;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Calificaciones.GetCalificaciones.GetPreciosQuery;
 using static MasterNet.Application.Cursos.GetCursos.GetCursosQuery;
@@ -9,7 +13,7 @@ namespace MasterNet.WebApi.Controllers
 {
     [ApiController]
     [Route("api/calificaciones")]
-    public class CalificacionesController : Controller
+    public class CalificacionesController : ControllerBase
     {
         private readonly ISender _sender;
         public CalificacionesController(ISender sender)
@@ -17,8 +21,10 @@ namespace MasterNet.WebApi.Controllers
             _sender = sender;
         }
 
+        [AllowAnonymous]
         [HttpGet]
-        public async Task<ActionResult> PaginationCursos(
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        public async Task<ActionResult<PagedList<CalificacionResponse>>> PaginationCursos(
             [FromQuery] GetCalificacionesRequest request,
             CancellationToken cancellationToken
 

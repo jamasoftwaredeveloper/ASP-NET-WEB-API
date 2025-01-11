@@ -1,6 +1,8 @@
-﻿using MasterNet.Application.Cursos.GetCursos;
+﻿using System.Net;
+using MasterNet.Application.Core;
 using MasterNet.Application.Precios.GetPrecios;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Cursos.GetCursos.GetCursosQuery;
 using static MasterNet.Application.Precios.GetPrecios.GetPreciosQuery;
@@ -9,7 +11,7 @@ namespace MasterNet.WebApi.Controllers
 {
     [ApiController]
     [Route("api/precios")]
-    public class PreciosController : Controller
+    public class PreciosController : ControllerBase
     {
         private readonly ISender _sender;
         public PreciosController(ISender sender)
@@ -17,8 +19,10 @@ namespace MasterNet.WebApi.Controllers
             _sender = sender;
         }
 
+        [AllowAnonymous]
         [HttpGet]
-        public async Task<ActionResult> PaginationCursos(
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        public async Task<ActionResult<PagedList<PrecioResponse>>> PaginationCursos(
             [FromQuery] GetPreciosRequest request,
             CancellationToken cancellationToken
 
